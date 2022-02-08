@@ -10,18 +10,24 @@
 </head>
 <body>
     <header>
+        <img class="logo"  src="imagens/RPC.png" alt="logotipo">
         <h1>Contador</h1>
         <h2>Vamos Contar</h2>
     </header>
-    <div>
-        <p>Inicio: <input type="number" name="inicio" id="txtn1"></p>
-        <p>Fim: <input type="number" name="fim" id="txtn2"></p>
-        <p>Intervalo: <input type="number" name="intervalo" id="txtn3"></p>
-        <input type="button" value="contar" onclick="contar()">
-    </div>
-    <div id="res">
-          Resultado  
-    </div>
+    <section>
+        <div class="caixa">
+            <p>Inicio: <input type="number" name="inicio" id="txtn1"></p>
+            <p>Fim: <input type="number" name="fim" id="txtn2"></p>
+            <p>Intervalo: <input type="number" name="intervalo" id="txtn3"></p>
+            <input type="button" value="contar" class="btn" onclick="contar()">
+        </div>
+        <div id="res">
+             Esperando dados e preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <strong><em><p>&copy; <a class="gh" href="https://github.com/Rodrigopca42" target="_blank" rel="external">Rodrigo Cardoso</a> Fevereiro 2022</p></em></strong>
+    </footer>
     <script src="javascript/folha.js"></script>
 </body>
 </html>

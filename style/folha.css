@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+body{
+    background-color: #00ffff;
+}
+header{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+text-align: center;
+text-shadow: 1px 1px 3px black;
+color: #ffffff;
+margin: auto;
+}
+
+.logo{
+    position: relative;
+    left: -600px;
+}
+
+h1, h2{
+    position: relative;
+    top: -52px;
+}
+
+.btn{
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 10px;
+}
+section{
+    background-color: #ffffff;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.404);
+    align-items: center;
+}
+
+.caixa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#res{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 25px;
+}
+
+footer p{
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.gh{
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+    color: #ffffff;
+    transition: 0.5s;
+
+}
+.gh:hover{
+    background-color: aquamarine;
+    color: blue;
+    text-decoration: underline;
+    border-radius: 5px;
+    padding: 5px;
+}
